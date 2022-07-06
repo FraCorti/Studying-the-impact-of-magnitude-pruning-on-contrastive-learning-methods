@@ -74,4 +74,6 @@ The finetune code will load 30 models not-pruned and will apply One-Shot global 
 
 **(2) UMAP Supervised Contrastive Learning 0% sparsity and 95% sparsity (One-Shot pruning)**
 
-<img src="figures/UMAP_Classes_SupCon_sparsity0.0.png" width="312"/> <img src="figures/UMAP_Classes_SupCon_sparsity0.95_global_pruning.png" width="300"/> 
+<img src="figures/UMAP_Classes_SupCon_sparsity0.0.png" width="312"/> <img src="figures/UMAP_Classes_SupCon_sparsity0.95_global_pruning.png" width="300"/>
+
+The article produced (soon available on Arvix) was accepted at the [Hardware Aware Efficient Training](https://haet2022.github.io/) ICML2022 Workshop.
