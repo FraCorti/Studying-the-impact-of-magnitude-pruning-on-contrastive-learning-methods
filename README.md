@@ -88,5 +88,4 @@ If you found this repository useful, please consider citing our work.
   journal={arXiv preprint arXiv:2207.00200},
   year={2022}
 }
-
 ```
