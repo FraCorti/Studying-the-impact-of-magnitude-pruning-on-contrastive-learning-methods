@@ -52,7 +52,7 @@ python3.7 clr_training.py.py
 python3.7 sup_training.py 
 ```
 
-The training hyperparameters can be specified by passing them as arguments to the code. The Supervised code will serialize the trained model as a single `.pt` file while the Supervised Contrastive will produce two `.pt` files (one for the Encoder and one for the classification head). 
+The training hyperparameters can be specified by passing them as arguments to the code. The Supervised code will serialize the trained model as a single `.pt` file while the Supervised Contrastive will produce two `.pt` files (one for the Encoder and one for the Classification head). 
 
 **Supervised Learning Finetune**
 ```
@@ -76,4 +76,17 @@ The finetune code will load 30 models not-pruned and will apply One-Shot global 
 
 <img src="figures/UMAP_Classes_SupCon_sparsity0.0.png" width="312"/> <img src="figures/UMAP_Classes_SupCon_sparsity0.95_global_pruning.png" width="300"/>
 
-The article produced (available [here](https://arxiv.org/pdf/2207.00200.pdf)) was accepted at the [Hardware Aware Efficient Training](https://haet2022.github.io/) ICML2022 Workshop.
+The article produced (available [here](https://arxiv.org/pdf/2207.00200.pdf)) was accepted at the [Hardware Aware Efficient Training](https://haet2022.github.io/) ICML2022 Workshop. 
+
+## BibTeX
+
+If you found this repository useful, please consider citing our work.
+```
+@article{corti2022studying,
+  title={Studying the impact of magnitude pruning on contrastive learning methods},
+  author={Corti, Francesco and Entezari, Rahim and Hooker, Sara and Bacciu, Davide and Saukh, Olga},
+  journal={arXiv preprint arXiv:2207.00200},
+  year={2022}
+}
+
+```
